@@ -23,7 +23,7 @@ int main()
 	// use header file to compute the quadratic equation
 	QuadraticEquation Quad(a, b, c);
 	discriminant = Quad.getDiscriminant();
-	// if discriminent is less than zer you display no root
+	// if discriminent is less than zero you display no root
 
 	if (discriminant < 0)
 	{
