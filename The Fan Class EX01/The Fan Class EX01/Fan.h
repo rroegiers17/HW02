@@ -17,9 +17,9 @@ public:
 	{
 		return speed;
 	}// should be 1,2, 3
-	void setSpeed(int speed) // setting the speed of the fan
+	void setSpeed(int s) // setting the speed of the fan
 	{
-		speed = speed;
+		speed = s;
 	}
 	bool getOn()//specifies whether the fan is on or off
 	{
@@ -34,9 +34,9 @@ public:
 		return radius;
 	}
 
-	void setRadius(double radius)// setting thr radius of the fan
+	void setRadius(double r)// setting thr radius of the fan
 	{
-		radius = radius;
+		radius=r;
 	}
 
 };
