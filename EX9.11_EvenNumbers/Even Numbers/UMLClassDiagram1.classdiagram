@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="243dfba3-a3ae-458f-8eff-5b94ad8f63ac" name="UMLClassDiagram1" linkedPackageId="9f4a28db-ced0-47dd-bf81-c95422f62b02" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="44e66c38-048b-47e9-9b07-4ed74496c9bf">
+      <profileInstance Id="669336f0-c0d7-4058-abe6-88585540fb9e" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="f3674d63-3b74-489b-8ce7-453b06dae03f">
+      <profileInstance Id="40f87c4c-ba1d-4358-a646-b278f30258b5" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="2f58248f-06df-415a-a2ce-12e95f3beaea" name="Even Numbers" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="723d41b9-4406-4df8-a072-2e9e0dac3d54" />
+        <ownedAttributesInternal>
+          <property Id="b44e0c7d-2b9d-4c1a-aeb1-26f2b6074ade" name="value" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="c9180942-fa30-45ee-a89c-ac23f1423b7d" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="a25c8b53-4cf8-4bb1-bcf3-c64ccfb76b93" LastKnownName="int" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="34564d03-e4c1-4f60-830f-ecd7a412ff87" name="EvenNumbers" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="724adbf5-9e1a-4872-bd6e-29cb495fd50c" />
+          </operation>
+          <operation Id="cee50291-d6a3-4e00-b79f-4d5652e7a0ca" name="EvenNumbers" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="af3e9d1c-cb86-4541-a905-41277e425f87" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="13f4672a-f879-41de-9500-63fd225076eb" name="n" direction="In" isUnique="false">
+                  <elementDefinition Id="3c81517b-fe98-4995-b3b4-669d4166b31e" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="a25c8b53-4cf8-4bb1-bcf3-c64ccfb76b93" LastKnownName="int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="64b78e73-9937-4ff5-8886-46cfd5eca4b9" name="getValue" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="93f68a28-0ea9-47df-8262-a4e61a9dea53" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="9c34e5f4-6b25-428f-916c-713d05aa3739" direction="Return" isUnique="false">
+                  <elementDefinition Id="ab8bbb39-660b-4f85-91ac-3201bafb8a81" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="a25c8b53-4cf8-4bb1-bcf3-c64ccfb76b93" LastKnownName="int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="dd2f9dcb-d5c5-40d3-b5a2-459152d16893" name="getNext" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="2011c63d-85dc-4986-a939-2de489fab9b0" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="9d574d0b-a48f-4d56-a717-708e308a1e3a" direction="Return" isUnique="false">
+                  <elementDefinition Id="5056d47c-6a01-44e6-932c-a1b2894c2e1b" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="a25c8b53-4cf8-4bb1-bcf3-c64ccfb76b93" LastKnownName="int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="fe054fcb-fc50-481b-a534-0282442741b5" name="getPrevious" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="43e2af4c-eaa7-4467-a7ef-3168e745a36c" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="97e93798-dc45-41dd-86cc-d94ff7225f33" direction="Return" isUnique="false">
+                  <elementDefinition Id="7e048048-b453-444d-a872-3ef7c8a58d1f" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="a25c8b53-4cf8-4bb1-bcf3-c64ccfb76b93" LastKnownName="int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="a25c8b53-4cf8-4bb1-bcf3-c64ccfb76b93" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
+        <elementDefinition Id="129da9ce-bd97-40d7-9560-2c788f04ce48" />
+      </referencedType>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="9f4a28db-ced0-47dd-bf81-c95422f62b02" name="Even Numbers">
+    <elementDefinition Id="c967791c-e1ad-40e7-bae6-88057b75fd93" />
+  </package>
+</logicalClassDesignerModel>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="UMLClassDiagram1">
+  <logicalClassDesignerModelMoniker Id="0e39df46-5f61-4084-b137-8dc095c496bc" />
+  <nestedChildShapes>
+    <classShape Id="a16753ad-877d-4b8c-a7b3-c47135d28316" absoluteBounds="1.875, 1.25, 5.75, 2.5039061854283013" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
+      <classMoniker Id="a50c48dc-932e-4036-8f4c-00dce50fe58a" LastKnownName="Quadrtic Equation" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="3a0c213e-a5e5-4037-85fd-392c5c4da48b" absoluteBounds="1.8900000000000001, 1.6400000000000001, 5.7200000000000006, 0.68164060264825832" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="9aae3eed-90ea-47ed-9883-b83d517b5066" absoluteBounds="1.8900000000000001, 2.3316406026482586, 5.7200000000000006, 1.3222655827800431" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</logicalClassDesignerDiagram>
