@@ -1,3 +1,4 @@
+/*   ---Joseph---  Remember to include header definition guards.*/
 #define Fan_h
 
 class Fan
